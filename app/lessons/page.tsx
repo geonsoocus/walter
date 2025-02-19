@@ -72,7 +72,7 @@ export default function LessonsPage() {
     {
       id: 2,
       title: "중급자 풋살 강습",
-      coach: "이코치",
+      coach: "오코치",
       level: "중급",
       price: 70000,
       location: "서울 강남구"
