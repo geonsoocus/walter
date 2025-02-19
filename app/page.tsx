@@ -1,10 +1,39 @@
+'use client'
 import Image from "next/image";
 import Link from 'next/link';
+import styled from '@emotion/styled';
+
+const Container = styled.div`
+  background-color: #f5f5f5;  // 밝은 회색
+  grid-rows: [20px_1fr_20px];
+  display: grid;
+  items-center: center;
+  justify-items: center;
+  min-height: 100vh;
+  padding: 2rem 2rem 5rem 2rem;
+  gap: 4rem;
+  
+  @media (min-width: 640px) {
+    padding: 5rem;
+  }
+`
+
+const MainContent = styled.main`
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  row-start: 2;
+  align-items: center;
+  
+  @media (min-width: 640px) {
+    align-items: flex-start;
+  }
+`
 
 export default function Home() {
   return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
+    <Container>
+      <MainContent>
         <Image
           className="dark:invert"
           src="/next.svg"
@@ -58,7 +87,7 @@ export default function Home() {
             풋살 레슨 보기
           </Link>
         </div>
-      </main>
+      </MainContent>
       <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
         <a
           className="flex items-center gap-2 hover:underline hover:underline-offset-4"
@@ -106,6 +135,6 @@ export default function Home() {
           Go to nextjs.org →
         </a>
       </footer>
-    </div>
+    </Container>
   );
 }
