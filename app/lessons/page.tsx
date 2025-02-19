@@ -64,7 +64,7 @@ export default function LessonsPage() {
     {
       id: 1,
       title: "기초 풋살 클래스",
-      coach: "김코치",
+      coach: "건스쿠스",
       level: "입문",
       price: 50000,
       location: "서울 마포구"
