@@ -80,7 +80,7 @@ export default function LessonsPage() {
     {
       id: 3,
       title: "고급 전술 훈련",
-      coach: "박코치",
+      coach: "아쿠치",
       level: "고급",
       price: 100000,
       location: "서울 송파구"
