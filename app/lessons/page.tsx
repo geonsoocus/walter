@@ -74,7 +74,7 @@ export default function LessonsPage() {
       title: "중급자 풋살 강습",
       coach: "오코치",
       level: "중급",
-      price: 70000,
+      price: 270000,
       location: "서울 강남구"
     },
     {
