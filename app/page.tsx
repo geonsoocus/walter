@@ -44,7 +44,7 @@ export default function Home() {
         />
         <ol className="list-inside list-decimal text-sm text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
           <li className="mb-2">
-            수정했어요. 수정을 다시 했어요.
+            수정했어요. 수정을 다시 했어요. 또또또 수정했습니다.
             <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-semibold">
               app/page.tsx
             </code>
